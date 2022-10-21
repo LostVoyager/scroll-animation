@@ -5,21 +5,23 @@
 }
 
 body {
-  background-color: #efedd6;
+  background-color: #13063E;
   font-family: 'Roboto', sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 0;
+  overflow-x: hidden;
+  color: #DDD;
 }
 
 h1 {
   margin: 10px;
+  font-size: 56px;
 }
 
 .box {
-  background-color: steelblue;
-  color: #fff;
+  background-color: #25155A;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -32,6 +34,11 @@ h1 {
   transition: transform 0.4s ease;
 }
 
+.box:hover {
+  background-color: #35256A;
+  color: #FFF;
+}
+
 .box:nth-of-type(even){
   transform: translateX(-500%);
 }
@@ -41,5 +48,5 @@ h1 {
 }
 
 .box h2 {
-  font-size: 48px
+  font-size: 40px
 }
